@@ -1,0 +1,33 @@
+{
+	"config_version": "4",
+	"name": "Up2Smth",
+	"author": "anthony.r.de.smet@gmail.com",
+	"version": "0.1",
+	"platform_version": "v2.1.6",
+	"description": "An empty app created by default",
+	"core": {
+		"general": {
+			"logging": {
+				"level": "DEBUG"
+			},
+			"reload": true
+		},
+		"android": {
+			"minimum_version": "5",
+			"package_name": "com.up2smth.android"
+		},
+		"ios": {
+			"minimum_version": "4.3",
+			"device_family": "any",
+			"package_name": "com.up2smth.ios"
+		}
+	},
+	"modules": {
+		"facebook": {
+			"version": "2.4",
+			"config": {
+				"appid": "1438642286394550"
+			}
+		}
+	}
+}
